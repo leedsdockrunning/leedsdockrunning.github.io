@@ -1,0 +1,137 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  background: #30BCED;
+  color: white; }
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+main {
+  flex: 1; }
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 3.5rem; }
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto; }
+  @media screen and (min-width: 1200px) {
+    .wrapper {
+      width: 80%; } }
+  @media screen and (min-width: 1600px) {
+    .wrapper {
+      width: 70%; } }
+
+.social-buttons {
+  margin: auto; }
+
+img {
+  height: 35px;
+  max-width: 100%; }
+
+footer {
+  padding: 20px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  align-content: center; }
+
+nav {
+  width: 100%;
+  background: #30BCED;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  color: white;
+  border-bottom: 2px solid white; }
+
+ul {
+  display: inline-flex;
+  margin: auto; }
+  ul a {
+    height: 100%;
+    padding: 0;
+    margin: 0; }
+  ul li {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    border: solid white 2px; }
+
+.hero {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 3em 0;
+  text-align: center; }
+  @media screen and (min-width: 1200px) {
+    .hero {
+      height: 400px; } }
+  .hero p {
+    margin: 1em 0;
+    line-height: 1.5em; }
+
+.card {
+  background: white;
+  color: #30BCED;
+  display: inline-block;
+  margin-top: 2em;
+  -webkit-box-shadow: 1px 1px 5px -2px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 1px 1px 5px -2px rgba(0, 0, 0, 0.45);
+  box-shadow: 1px 1px 5px -2px rgba(0, 0, 0, 0.45);
+  padding: 15px 30px; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,51 @@
+html {
+  font-family: $fontStack;
+  font-weight: normal;
+  background: $primary;
+  color: white;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  @media #{$breakMd} {
+      width: 80%;
+  }
+  @media #{$breakLg} {
+    width: 70%;
+  }
+}
+
+.social-buttons {
+  margin: auto;
+}
+
+img {
+  height: 35px;
+  max-width: 100%;
+}
+
+footer {
+  padding: 20px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
